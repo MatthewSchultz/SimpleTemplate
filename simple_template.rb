@@ -3,8 +3,10 @@
 
 @do_git = yes? "Do the GIT stuff?"
 
-if @do_git
-  git :init
-  git add: '.'
-  git commit: "-a -m 'INIT'"
+after_bundle do
+  if @do_git
+    git :init
+    git add: '.'
+    git commit: "-a -m 'INIT'"
+  end
 end
