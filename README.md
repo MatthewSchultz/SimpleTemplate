@@ -11,7 +11,7 @@ This template, version **0.0.1** was designed to work with rails **6.0.2.1**. Wi
 To use this, just call it when creating your app:
 
 ```bash
-$ rails new some_app -m uri
+$ rails new some_app -m https://tinyurl.com/uyjfezd
 ```
 
 You can apply it to an existing app, but you probably don't want to, that's not really what this is for.
